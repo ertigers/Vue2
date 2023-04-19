@@ -1,0 +1,32 @@
+.video-container {
+  background-color: #0e181a;
+  aside {
+
+
+
+  }
+
+
+
+  .contextmenu {
+    position: absolute;
+    left: -100%;
+    top: -100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 6px 0;
+
+    .el-button {
+      padding: 6px 6px;
+
+      &:hover {
+        background-color: rgba(0, 158, 255, 0.0823529);
+      }
+    }
+
+    .el-button + .el-button {
+      margin-left: 0;
+    }
+  }
+}
