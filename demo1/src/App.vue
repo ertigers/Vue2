@@ -7,7 +7,8 @@
 <script>
 // import Demo from  "./components/contactPerson/index.vue"
 // import Demo from  "./components/video/device.vue"
-import Demo from  "./components/map/map-route.vue"
+// import Demo from  "./components/map/map-route.vue"
+import Demo from  "./components/sign-canvas/index.vue"
 
 export default {
   name: 'App',

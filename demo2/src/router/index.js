@@ -6,6 +6,7 @@ import PushLog from '../views/pushLog/index.vue'
 import User from '../views/user/index.vue'
 import Setup from '../views/setup/index.vue'
 import Demo from '../views/demo/index.vue'
+import draggable from '../views/vueDraggable/index.vue'
 
 
 Vue.use(VueRouter)
@@ -48,6 +49,13 @@ const routes = [
     name: 'Demo',
     component: Demo,
     meta:{title: '测试demo'}
+  },
+  
+  {
+    path: '/draggable',
+    name: 'Draggable',
+    component: draggable,
+    meta:{title: 'draggable'}
   },
   {
     path: '/login',
